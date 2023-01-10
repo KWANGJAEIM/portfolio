@@ -9,7 +9,45 @@ Google의 BERT와 GPT통해 자연어 처리 과제에서 딥러닝 알고리즘
 
  
   <br/>
+  
+## STEP1 EDA
 
+<br/>
+
+Context:  “국민주택기금을 활용해 금리가 낮은 월세 대출 보증상품을 내놓는 방안을 협의하고 .....  <br/> 
+한국은행에 35년간 몸담으며 조사국장, 부총재보 등을 지냈다. 주택금융공사는 이달 말까지 부산국제금융센터로 <br/>
+이전해 다음달 1일부터 부산 시대를 시작한다. <br/>
+<br/>
+
+**Question:  "미국 하와이대 출신 인물이 취임한 날짜는?" Answer: "29일"**
+
+<br/>
+<br/>
+
+데이터는 위와 같이 문맥과 질문 그리고 답변으로 구성된다.  
+
+   '''python
+
+   anwsers = dataset['answers']
+
+   max_ = 0
+   sum_ = 0
+   lengths = []
+
+   for answer in anwsers:
+       for text in answer['text']:
+           #@print(text)
+           l = len(text)
+           lengths.append(l)
+
+            if l > max_:
+                max_ = l
+
+            sum_ += l
+
+    print(f'Mean: {sum_/len(lengths)}, Max: {max_}')
+
+'''
 ---
   
 </p>
@@ -18,11 +56,16 @@ Google의 BERT와 GPT통해 자연어 처리 과제에서 딥러닝 알고리즘
 ## STEP1 모델 선정 
 
 <br/>
+<img src = "https://user-images.githubusercontent.com/86638764/211512808-66df2b6e-20c2-4da6-9c76-d58a61d4e7ca.png">
+
+한국어 Machine Reading Comprehesion 데이터셋 KorQuard로 QA대회 'KorQuard'의 리더보드의 상위 성적을 기록한 대부분의 참가자들은 이 언어모델 BERT를 사용하였습니다.
+마찬가지로 비슷한 수준의 높은 성능을 보여주는 GPT모델이 존재하지만 모델의 크기가 상대적으로 너무 커 주어진 GPU로 학습시키기 어려워 BERT 기반의 모델을 선정했습니다. 
 
 
 
-###  Dacon 상추의 생육환경생성 AI 경진대회 본선진출 및 최종 10등/(2022.12)
----
+## STEP2 모델 학습
+
+Huggingface를 통해 사전학습된 모델을 불러와 학습을 진행했습니다. Hanbert, Kobert, Koelectra, KoRoberta, Kobart 등 다양한 모델을 실험하였고 
 
 <br/>
 
