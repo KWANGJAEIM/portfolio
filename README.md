@@ -1,6 +1,6 @@
  <p align="center">
   <h1 align="center">임광재(KWANGJAE Im) ✨</h1>
-<img src="(https://github.com/KWANGJAEIM/portfolio/issues/1#issue-1526716244)">
+<img src="https://github.com/KWANGJAEIM/portfolio/issues/1#issue-1526716244">
   <p align="center">
 Hello, World! <br/>모두가 쉽게 이용할 수 있는 인공지능을 만들고 싶은 개발자 임광재입니다 <br/><br/>🏫경희대학교 물리학과 석사과정 졸업(2018.02~2020.02) <br/> 🏫경희대학교 응용물리학과 졸업(2013.02~2018.02)
   <br/>
