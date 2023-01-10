@@ -1,7 +1,13 @@
- <p align="center"> <div class="box" style="background: #BDBDBD;">
-    <img class="profile" src="/images/tistory.JPG"](https://user-images.githubusercontent.com/86638764/211457745-3867a2c4-a8ad-4456-955d-5bf84f44fd74.jpg")>
-</div>
- 
+ <p align="center"> <img style="
+border: 3px solid gold;
+border-radius: 7px;
+-moz-border-radius: 7px;
+-khtml-border-radius: 7px;
+-webkit-border-radius: 7px;
+"
+src="https://user-images.githubusercontent.com/86638764/211457745-3867a2c4-a8ad-4456-955d-5bf84f44fd74.jpg">
+
+  <p align="center"> 
 <img src = "https://user-images.githubusercontent.com/86638764/211457745-3867a2c4-a8ad-4456-955d-5bf84f44fd74.jpg" width = 30% height = 30% >  
 <h1 align="center">임광재(KWANGJAE Im) ✨
 
