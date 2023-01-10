@@ -1,4 +1,6 @@
- <p align="center"> <img style="
+ <p align="center"> 
+ 
+ <img style="
 border: 3px solid gold;
 border-radius: 70px;
 width: 30%;
@@ -6,7 +8,6 @@ height: 30%;
 -moz-border-radius: 70p
 -khtml-border-radius: 70px;
 -webkit-border-radius: 70px;
- 
 "
 src="https://user-images.githubusercontent.com/86638764/211457745-3867a2c4-a8ad-4456-955d-5bf84f44fd74.jpg">
 
