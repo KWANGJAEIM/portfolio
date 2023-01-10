@@ -1,4 +1,6 @@
- <p align="center">
+ <p align="center"> <div class="box" style="background: #BDBDBD;">
+    <img class="profile" src="/images/tistory.JPG"](https://user-images.githubusercontent.com/86638764/211457745-3867a2c4-a8ad-4456-955d-5bf84f44fd74.jpg")>
+</div>
  
 <img src = "https://user-images.githubusercontent.com/86638764/211457745-3867a2c4-a8ad-4456-955d-5bf84f44fd74.jpg" width = 30% height = 30% >  
 <h1 align="center">임광재(KWANGJAE Im) ✨
