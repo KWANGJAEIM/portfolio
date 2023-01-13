@@ -151,7 +151,7 @@ huggingface 모델 배포 <br/>
 
 <br/>
 
-### 5.Dacon 4D블록 분류대회 (in process)
+### 5.Dacon 4D블록 분류대회 <a href= "https://github.com/KWANGJAEIM/DCV_lab/tree/main/4D%20block"> 🔗click it! </a> (in process)
 
 
 <br/>
